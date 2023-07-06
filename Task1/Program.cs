@@ -48,7 +48,7 @@ void SortingArray(int[,] Array)
     {
         for (int j = 0; j < Array.GetLength(1); j++)
         {
-            for (int k = 0; k < Array.GetLength(1)-1; k++)
+            for (int k = 0; k < Array.GetLength(1) - 1; k++)
             {
                 if (Array[i, k + 1] > Array[i, k])
                 {
